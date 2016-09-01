@@ -1,0 +1,105 @@
+#Introduction
+
+4 minutes late. Talking about GDP currently
+
+#Content
+
+GDP: Measure of all currently produced final goods and services evaluated at MARKET PRICES
+	Currently Produced: In a given period, typically a year
+	Final goods and services: Not used in making other goods
+	Evaluated at market prices: Self-explanatory
+
+Total expenditure is one side of GDP, domestically-produced (sold inside or outside)
+Total income is the other side, domestically-located
+
+Expenditure equals income because every dollar a buyer spends becomes income to the seller
+~In other words... just remember expenditure == income. It doesn't really make sense to me.
+
+Circular Flow: Basic Macro theory. There are households expending, goods go to households, income goes to households, labor goes to firms
+	HOUSEHOLDS <-> FIRMS.
+	You can also think about how much value is added at each stage of production.
+
+GDP is also considered value added under other theories. OUTPUT VALUE-INTERMEDIATE GOODS VALUE
+	Car price - Steel/Cloth/etc = GDP more or less.
+
+1.00>3.00>6.00
+
+GDP is 5 overall. 2 in second stage. 3 in third stage.
+Bread is final good.
+
+
+!GDP theories
+INCOME
+OUTPUT
+EXPENDITURE
+SUM OF VALUE ADDED AT ALL STAGES IN PRODUCTION OF FINAL GOODS
+
+!Drawbacks
+Recycling is not included in GDP, used stuff.
+Various other things. Basically everything not goods/services.
+We've begun paying for things rather than making or doing them ourselves.
+
+NIPA (National Income and Product accounts): are a system of accounts collected to measure ecomics activity.
+	Expenditure = Income
+	There is statistical discrepancy in it though
+
+Personal Income: Income they're actually receiving (households and non-corporate businesses)
+
+!Types of GDP Cont.
+
+Nominal GDP: Measures value of all final goods and services produced using current market prices.
+Real GDP: Measures these values using the prices of a base year.
+
+!Sample Problem
+Compute nominal GDP
+Compute real GDP each year using 2010 as the base year.
+~Instead of multiplying by current prices use a different year (2010 in this case)
+
+2012 was SUM(P*Q) and SUM(OLD_P*Q)
+
+30*1050 - 31500
+100*205 - 20500
+Real = 52000 (base year is 2010)
+
+36*1050 - 37800
+100*205 - 20500
+Nominal = 58300
+
+Growth Rate: ( ( Later - Earlier ) / Earlier) * 100 = Growth rate over period of time. 
+	Nominal and real is just comparing which values to use.
+
+If you want to get rid of price effect then you use Real, coincidentally.
+Getting the 'real' is just the actual changes in quantity.
+
+Inflation Rate: Percentage increase in overall level of prices
+	One measure of price level is a GDP devlator
+
+GDP deflator: Measure of Inflation Rate.
+	GDP deflator = 100 * Nominal / Real
+
+!Example of inflation rate/deflator
+Nominal/Real * 100 = Inflation rate.
+
+46200/46200 = 1 * 100 = 100
+51400/50000 = approx. .9*100 = 90
+
+~I wasn't paying attention so I don't know how to do this.
+~OK now i understand. Inflation is just the difference between each year. You were doing it correctly.
+When it crosses the 100 line then you're working with the base year because it's Num/Num
+
+!Tips and Trix courtesy of prof.
+For anything X and Y percent change in X/Y
+take percent chang in X-percent change in y is approximation
+
+If nominal gpd rises by 9% and rgdp rises 4% then inflation rate is approx. 5.
+
+!General Stuff
+How Beuro of Labor Statistics constructs consumer price index
+
+Deptermine composition of basket of goods for typical person.
+Gte data on prices of all the items
+CPI is 100*(cost goods) and something else I didn't catch.
+
+Capital goods: not in that CPI. GDP is.
+Imported goods: are in CPI. GDP not.
+CPI is fixed but GDP deflator is changing every ear.
