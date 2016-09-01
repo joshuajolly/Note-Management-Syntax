@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+	<dict>
+	<key>name</key>
+	<string>Note Management Syntax</string>
+	<key>settings</key>
+	<array>
+		<dict>
+			<key>settings</key>               <!-- Global colors -->
+			<dict>
+				<key>background</key>
+				<string>#FFFFFF</string>      <!-- Background color -->
+				<key>foreground</key>
+				<string>#000000</string>      <!-- Foreground color -->
+				<key>caret</key>
+				<string>#000000</string>      <!-- Cursor color -->
+				<key>lineHighlight</key>
+				<string>#F1F1F1</string>      <!-- Sidebar color at cursor -->
+				<key>selection</key>
+				<string>#005377</string>      <!-- Highlighted background color -->
+				<key>selectionForeground</key>
+				<string>#000000</string>      <!-- Highlighted foreground color -->
+				
+			</dict>
+		</dict>
+
+		<dict>
+			<key>scope</key>
+			<string>nmsTitles</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#FD0987</string>      <!-- Title color -->
+				<key>fontStyle</key>
+				<string>italic</string>
+			</dict>
+		</dict>
+
+		<dict>
+			<key>scope</key>
+			<string>nmsComment</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#FF6600</string>      <!-- Comment color -->
+				<key>fontStyle</key>
+				<string>italic</string>
+			</dict>
+		</dict>
+
+		<dict>
+			<key>scope</key>
+			<string>nmsWordDefinitions</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#0000F0</string>      <!-- Definition color -->
+			</dict>
+		</dict>
+
+		<dict>
+			<key>scope</key>
+			<string>nmsNumberedLists</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#5600FF</string>      <!-- Numbered list color -->
+			</dict>
+		</dict>
+
+		<dict>
+			<key>scope</key>
+			<string>nmsEmphasis</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#F00000</string>      <!-- Emphasis color -->
+			</dict>
+		</dict>
+
+		<dict>
+			<key>scope</key>
+			<string>nmsOperator</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#000000</string>      <!-- Special Operator color -->
+			</dict>
+		</dict>
+
+		<dict>
+			<key>scope</key>
+			<string>nmsBrackets</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#FF0000</string>      <!-- Brackets color -->
+			</dict>
+		</dict>
+
+		<dict>
+			<key>scope</key>
+			<string>nmsBracketsDone</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#006400</string>      <!-- Brackets Done color -->
+			</dict>
+		</dict>
+
+
+	</array>
+	<key>uuid</key>
+	<string>D8D5E82E-3D5B-46B5-B38E-8C841C21347D</string>
+	</dict>
+</plist>

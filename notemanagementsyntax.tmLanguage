@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>fileTypes</key>
+	<array>
+		<string>nm</string>
+	</array>
+	<key>name</key>
+	<string>Note Management Syntax</string>
+	<key>patterns</key>
+	<array>
+
+		<dict>
+			<key>comment</key>
+			<string>Titles</string>
+			<key>match</key>
+			<string>\#.+</string>                <!-- Titles -->
+			<key>name</key>
+			<string>nmsTitles</string>
+		</dict>
+
+		<dict>
+			<key>comment</key>
+			<string>Comments</string>
+			<key>match</key>
+			<string>~.+</string>                 <!-- Comments -->
+			<key>name</key>
+			<string>nmsComment</string>
+		</dict>
+
+		<dict>
+			<key>comment</key>
+			<string>Comments</string>
+			<key>match</key>
+			<string>[^ ,.A-Za-z0-9-]--.+</string> <!-- Comments -->
+			<key>name</key>
+			<string>nmsComment</string>
+		</dict>
+
+		<dict>
+			<key>comment</key>
+			<string>Word Definitions</string>
+			<key>match</key>
+			<string>.+[^\\0-9]:</string>                 <!-- Definitions -->
+			<key>name</key>
+			<string>nmsWordDefinitions</string>
+		</dict>
+
+		<dict>
+			<key>comment</key>
+			<string>Numbers</string>
+			<key>match</key>
+			<string>^\t{0,9}[0-9A-Za-z]{1,9}[\.)][ ]</string>   <!-- Numbered Lists cont. -->
+			<key>name</key>
+			<string>nmsNumberedLists</string>
+		</dict>
+
+		<dict>
+			<key>comment</key>
+			<string>Emphasis</string>
+			<key>match</key>
+			<string>^!.+</string>                 <!-- Emphasis -->
+			<key>name</key>
+			<string>nmsEmphasis</string>
+		</dict>
+
+		<dict>
+			<key>comment</key>
+			<string>Operator</string>
+			<key>match</key>
+			<string>[+=-]</string>               <!-- Emphasis -->
+			<key>name</key>
+			<string>nmsOperator</string>
+		</dict>
+
+		<dict>
+			<key>comment</key>
+			<string>Brackets Done</string>
+			<key>match</key>
+			<string>\[DONE\]</string>               <!-- Done Brackets -->
+			<key>name</key>
+			<string>nmsBracketsDone</string>
+		</dict>
+
+		<dict>
+			<key>comment</key>
+			<string>Brackets</string>
+			<key>match</key>
+			<string>\[([^0-9\n\t])+\]</string>               <!-- Brackets -->
+			<key>name</key>
+			<string>nmsBrackets</string>
+		</dict>
+
+	</array>
+	<key>scopeName</key>
+	<string>text.nm</string>
+	<key>uuid</key>
+	<string>700cc4e9-7848-4ddd-a40d-302c6b5b374f</string>
+</dict>
+</plist>
